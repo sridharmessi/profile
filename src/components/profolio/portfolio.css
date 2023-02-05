@@ -1,0 +1,18 @@
+.container_portfolio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+.port_img {
+  height: 200px;
+  width: 300px;
+}
+
+.portfolio_item {
+  background: var(--color-bg-varient);
+  padding: 1.3rem;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  overflow: hidden;
+  transition: var(--transition);
+}
